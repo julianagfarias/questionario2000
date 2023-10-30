@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+	background-image: url('img/bg.jpg');
+	font-family: 'Pacifico', cursive;
+}
+
+.titulo {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #FF00A7;
+	font-size: 4em;
+	margin-top: 0px;
+	background-image: url('img/sparkles.png');
+	display: inline-block;
+	padding: 0px 64px;
+}
+
+.questionario {
+	background-image: url('img/papel.jpg');
+	margin: 0px 3em;
+	width: 40em;
+
+}
+
+.questao {
+	font-size: 1.5em;
+	margin: 1em 0em 0em 1.5em;
+	color: #854274;
+	display:block;
+}
+
+.container {
+	display: flex;
+}
+
+.respostas {
+	width: 30%;
+	padding-left: 1em;
+	background-color: lightpink;
+}
+
+.input{
+	width: 90%;
+}
+
+
+.respostas_p {
+	font-size: 1.5rem;
+	color: #1E061F;
+}
+
+.btn {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.botao {
+	background-color: skyblue;
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Questionário Anos 2000 </title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="titulo">
+		<h1>♥ Questionário ♥</h1>
+	</div>
+
+	<div class="container">
+		
+		<div class="questionario">
+			
+			<form name="form_questionario" onsubmit="event.preventDefault()">
+				
+				<div class="questao q1">
+					<label for="nome">1. Qual seu nome?</label><br>
+					<input type="text" id="nome" name="nome" class="input" required>	
+				</div>
+				
+				<div class="questao q2">
+					<label for="idade">2. Qual sua idade?</label><br>
+					<input type="text" id="idade" name="idade" class="input" required>	
+				</div>
+
+				<div class="questao q3">
+					<label for="banda">3. Qual sua banda/cantor favorito?</label><br>
+					<input type="text" id="banda" name="banda" class="input" required>	
+				</div>
+
+				<div class="questao q4">
+					<label for="filme">4. Se fosse indicar um filme muito bom, qual indicaria?</label><br>
+					<input type="text" id="filme" name="filme" class="input" required>	
+				</div>
+
+				<div class="questao q5">
+					<label for="mochila">5. O que você carrega na mochila ou na bolsa todos os dias?</label><br>
+					<input type="text" id="mochila" name="mochila" class="input" required>	
+				</div>
+
+				<div class="questao q6">
+					<label for="dianoite">6. Você prefere dia ou noite?</label><br>
+					<input type="text" id="dianoite" name="dianoite" class="input" required>	
+				</div>
+
+				<div class="questao q7">
+					<label for="medo">7. Você tem medo de quê?</label><br>
+					<input type="text" id="medo" name="medo" class="input" required>	
+				</div>
+
+				<div class="questao q8" name="hoje">
+					<label for="hoje">7. Se soubesses que o mundo acabaria amanhã, o que você faria hoje?</label><br>
+					<input type="text" id="hoje" class="input" required>	
+				</div>
+
+				<div class="questao q9">
+					<label for="poderes">9. Se você pudesse ter poderes mágicos, qual escolheria?</label><br>
+					<input type="text" id="poderes" name="poderes" class="input" required>	
+				</div>
+
+				<div class="questao q10">
+					<label for="coisa">10. Você guarda alguma coisa que para outras pessoas não tem significado, mas pra você sim?</label><br>
+					<input type="text" id="coisa" name="coisa" class="input" required>	
+				</div>
+				
+
+				<div class="btn">
+					<button type="submit" class="botao" onclick="respostas()">Entregar o questionário</button>
+				</div>
+			</form>
+
+		</div>
+
+		<div class="respostas">
+			<h2>Respostas:</h2>
+			<p class="respostas_p" id="inserirRespostas"></p>
+
+		</div>
+
+	</div>
+</body>
+</html>
